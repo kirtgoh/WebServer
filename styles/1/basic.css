@@ -45,6 +45,14 @@ h2 {
 #header li {
   display: inline;
 }
+#header ul li a {
+  text-decoration:none;
+  color: #ccc;
+}
+#header ul li a:hover {
+  text-decoration:underline;
+  color: #f00;
+}
 #footer {
   clear:both;
   width: auto;
