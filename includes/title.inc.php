@@ -3,6 +3,9 @@
 if (!defined('IN_TG')) {
 	exit('Access Denied!');
 }
+if (!defined('SCRIPT')) {
+	exit('Script error!');
+}
 ?>
 <link rel="shortcuticon" href="favicon.ico" />
 <link rel="stylesheet" href="styles/1/basic.css" type="text/css" media="screen" title="no title" charset="utf-8">
